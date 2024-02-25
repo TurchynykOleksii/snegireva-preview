@@ -942,7 +942,7 @@ form label {
 }
 
 .no-webp .form__text-form:after {
-  background: url(../../img/cover/form-bg-mob.jpg)
+  background: url(../img/cover/form-bg-mob.jpg)
 }
 
 .form__text-form:after {
@@ -952,9 +952,11 @@ form label {
   height: 146px;
   position: absolute;
   top: 20px;
+  background: url(../img/cover/form-bg-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+
 }
 
 .form__bg {
@@ -990,7 +992,7 @@ form label {
 }
 
 .no-webp .instagram {
-  background-image: url(../../img/cover/bg-inst.jpg)
+  background-image: url(../img/cover/bg-inst.jpg)
 }
 
 .instagram {
@@ -1590,7 +1592,7 @@ form label {
   }
 
   .no-webp .form__text-form:after {
-    background: url(../../img/cover/form-bg.jpg)
+    background: url(../img/cover/form-bg.jpg)
   }
 
   .form__text-form:after {
@@ -1732,6 +1734,10 @@ form label {
 @media only screen and (min-width:1200px) {
   .price__text {
     padding: 38px 10px 48px;
+  }
+
+  .form__text-form:after {
+    display: none;
   }
 
   .price__text p {
@@ -2125,15 +2131,30 @@ form label {
 }
 
 .webp .form__text-form:after {
-  background: url(../../img/cover/form-bg-mob.webp)
+  background: url(../img/cover/form-bg-mob.webp)
 }
 
 .webp .instagram {
-  background-image: url(../../img/cover/bg-inst.webp)
+  background-image: url(../img/cover/bg-inst.webp)
+}
+
+.webp .form__text-form:after {
+  background: url(../img/cover/form-bg-mob.webp)
+}
+
+.webp .instagram {
+  background-image: url(../img/cover/bg-inst.webp)
 }
 
 @media only screen and (min-width:615px) {
   .webp .form__text-form:after {
-    background: url(../../img/cover/form-bg.webp)
+    background: url(../img/cover/form-bg.webp);
+
+  }
+
+  .form__text-form:after {
+    background: url(../img/cover/form-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
