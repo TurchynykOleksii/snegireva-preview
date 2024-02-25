@@ -1734,7 +1734,7 @@ form label {
 
 @media only screen and (min-width:1200px) {
   .footer__list {
-    max-width: 295px;
+    max-width: 255px;
     width: 100%;
   }
 
