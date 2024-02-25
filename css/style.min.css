@@ -1096,6 +1096,7 @@ form label {
 }
 
 .footer__list {
+  max-width: max-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1732,6 +1733,11 @@ form label {
 }
 
 @media only screen and (min-width:1200px) {
+  .footer__list {
+    max-width: 295px;
+    width: 100%;
+  }
+
   .price__text {
     padding: 38px 10px 48px;
   }
